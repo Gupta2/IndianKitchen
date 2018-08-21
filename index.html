@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <title>Indian Ethnic dress Gallery</title>
+
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="Slider-master/src/css/main.css">
+    <link rel="stylesheet" href="CSS/footer-distributed-with-address-and-phones.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        // alert("hhh");
+        $(document).ready(function() {
+            // alert("hh2");
+            $("#div1").load("flipLightBox/02-multi-image-demo.html");
+
+        });
+
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <header id="sticky-header">
+        <h1>Indian Ethnic Dress Gallery</h1>
+
+        <div id="navbar">
+            <a class="active" href="index.html">Home</a>
+            <a href="product/index.html">Wedding dress</a>
+           <a href="product/index_Saari.html">Sarees</a>
+            <a href="product/index_Casual.html">Casual dress</a>
+            <a href="product/index_Dresses.html">Dresses</a>
+            <a href="jquery_php/index.html">Contact</a>
+            <a href ="faq.html">FAQ</a>
+        </div>
+
+    </header>
+    <section id="slider" class="slider">
+
+        <div id="wrapper" class="slides-wrapper">
+            <div id="slide" class="slide" data-slide-id="0">
+                <img class="slide__img" src="img/banner/Trendy-Kurtis-Home-Page-Top-Slider-240418-1366x350-9b02d.jpg" alt="slider-0">
+
+            </div>
+            <div id="slide" class="slide" data-slide-id="1">
+                <img class="slide__img" src="img/banner/Designer-Suits-Home-Page-Top-Slider-230418-1366x350-a210b.jpg" alt="slider-1">
+
+            </div>
+            <div id="slide" class="slide" data-slide-id="2">
+                <img class="slide__img" src="img/banner/Embroidered-Sarees-Home-Page-Top-Slider-230418-1366x350-18569.jpg" alt="slider-2">
+
+            </div>
+            <div id="slide" class="slide" data-slide-id="3">
+                <img class="slide__img" src="img/banner/Trendy-Kurtis-Home-Page-Top-Slider-240418-1366x350-9b02d.jpg" alt="slider-3">
+
+            </div>
+        </div>
+
+        <a href="#" class="slider__btn slider__btn--prev" data-slide="prev">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="slider__btn slider__btn--next" data-slide="next">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </a>
+
+        <div class="indicators">
+            <ul class="indicators__list">
+                <li class="indicators__item active" data-slide-to="0"></li>
+                <li class="indicators__item" data-slide-to="1"></li>
+                <li class="indicators__item" data-slide-to="2"></li>
+                <li class="indicators__item" data-slide-to="3"></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="Slider-master/src/js/script-compiled.js"></script>
+
+    <article>
+        Welcome to Indian Ethnic Dress Gallery, the new generation Online Indian Ethnic Wear Store. We brings you the world’s finest collection and wide range of Indian SAREES, SALWAAR KAMEEZ and LEHENGA CHOLI. We are one of the leading providers of online Indian traditional attire. Our key focus is on good quality products, on-time delivery, customer’s satisfaction. Our apparels  are exclusively-designed to bestow upon you the real feels of Indian heritage.
+Our collections are not only an ideal mix of form, function and festivals, but they also reflect the richness of Indian wardrobe and tradition.
+        <div id="div1">
+            <h2>Let jQuery AJAX Change This </h2></div>
+
+    </article>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Company<span>logo</span></h3>
+
+            <p class="footer-links">
+                <a href="index.html">Home</a> ·
+                <a href="jquery_php/index.html">Pricing</a> ·
+                <a href="jquery_php/index.html">About</a> ·
+                <a href="faq.html">Faq</a> ·
+                <a href="jquery_php/index.html">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Garima Gupta &copy; 2018</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>21 Revolution Street</span> Delhi, India</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 555 123456</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@company.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the company</span> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    
+
+</body>
+
+</html>

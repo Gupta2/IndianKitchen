@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>flipLightBox Multi Image Demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style type="text/css">
+    body { text-align: center; } img { margin: 0px; } a { text-decoration: none; }
+    
+    div.gallery {
+    border: 0px solid white;
+    padding: 0px;
+ }
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+   
+}
+
+.responsive {
+    
+    padding: 0 1px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+<h1>Dress Collection</h1>
+
+    <div class="responsive">
+        <div class="gallery">
+<a href="flipLightBox/x-demo-images/1.gif" class="flipLightBox">
+ <img src="flipLightBox/x-demo-images/1.gif" width="225" height="225" alt="Party Dress" >
+    <span><b>Party Dress</b></span>
+    </a>
+           <!--  <div class="desc"><a href="../final/product/index.html"><b>Party Dress</b><div class="desc">$99.00</div></a></div> -->
+           <div class="desc"><a href="http://mca.matc.edu/guptag/vicom125/final/product/index.html"><b>Party Dress</b><div class="desc">$99.00</div></a></div> 
+    </div>
+    </div>        
+
+    
+    <div class="responsive">
+        <div class="gallery">
+<a href="flipLightBox/x-demo-images/2.gif" class="flipLightBox">
+
+    <img src="flipLightBox/x-demo-images/2.gif" width="225" height="225" alt="Lanhga Dress" />
+<span><b>Lanhga Dress</b></span>
+</a>
+            
+            <div class="desc"><a href="http://mca.matc.edu/guptag/vicom125/final/product/index.html"><b>Lanhga Dress</b><div class="desc">$99.00</div></a></div>
+            </div>
+    </div> 
+            
+    
+                <div class="responsive">
+        <div class="gallery">
+            <a href="flipLightBox/x-demo-images/3.gif" class="flipLightBox">
+    
+<img src="flipLightBox/x-demo-images/3.gif" width="225" height="225" alt="Casual Dress" />
+<span><b>Casual Dress</b></span>
+</a>
+            
+            <div class="desc"><a href="http://mca.matc.edu/guptag/vicom125/final/product/index.html"><b>Casual Dress</b><div class="desc">$99.00</div></a></div>
+    </div>
+    </div>     
+            
+
+    <div class="responsive">
+        <div class="gallery">
+    
+<a href="flipLightBox/x-demo-images/4.gif" class="flipLightBox">
+    
+<img src="flipLightBox/x-demo-images/4.gif" width="225" height="225" alt="Wedding Dress" />
+<span><b>Wedding Dress</b> </span>
+</a>
+            
+            <div class="desc"><a href="http://mca.matc.edu/guptag/vicom125/final/product/index.html"><b>Wedding Dress</b><div class="desc">$99.00</div></a></div>
+    </div>
+    </div>              
+            
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="flipLightBox/fliplightbox.min.js"></script>
+<script type="text/javascript">$('body').flipLightBox()</script>
+
+</body>
+</html>

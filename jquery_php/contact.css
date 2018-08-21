@@ -1,0 +1,80 @@
+
+/*div.container {
+    width: 100%;
+    border: 1px solid gray;
+     
+    }
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}*/
+
+main {
+    margin-left: 170px;
+   /* border-left: 1px solid gray;*/
+    padding: 1em;
+    overflow: hidden;
+    
+}
+
+
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+input, textarea {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+   
+}
+
+.button {
+	width: 9em;
+    box-shadow: 2px 2px;
+    border-radius: 15px;
+     margin-left: 8em;
+     margin-top: 2em;
+    
+}
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+legend {
+    font-weight: bold;
+    font-size: 100%;
+    margin-bottom: .5em;
+}
+span {
+	float: none;
+    font-size: 100%;
+    color:blue;
+}
+label.error {
+    color: red;
+	float: none;
+}
